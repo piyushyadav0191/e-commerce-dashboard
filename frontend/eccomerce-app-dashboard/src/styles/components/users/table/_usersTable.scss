@@ -1,0 +1,625 @@
+// xl
+@media (min-width: 1200px) {
+    .mainUsersTableContainer {
+        #searchAndFilter {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: calc( 100% - 70px );
+            height: 22.5vh;
+            margin-left: 70px;
+
+            #closeIcon {
+                position: absolute;
+                top: 1vh;
+                left: 30vw;
+            }
+
+            #FormControl {
+                margin: 10px;
+                width: 25ch;
+                background-color: #fff;
+
+                .MuiInputBase-input {
+                    height: 0.5vh;
+                }
+            }
+        }
+
+        #tableContainer {
+            width: calc( 100% - 70px );
+            height: 77.5vh;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            margin-left: 70px;
+            padding: 0;
+            border: 1px solid rgba(1, 1, 1, 0.25);
+        }
+
+        #containerRows {
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+            padding: 0 2.5% 0 2.5%;
+            overflow-y: scroll;
+            overflow-x: hidden;
+
+            :hover {
+                background-color: rgba(127, 41, 185, 0.5) !important;
+                cursor: pointer;
+                transition: all 0.2s ease;
+            }
+        }
+
+        #rowsDiv {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 2px;
+            padding: 0 2.5% 0 2.5%;
+            width: 100%;
+            height: 7.5ch;
+            background-color: #fff;
+
+            :hover {
+                #menuIconDiv {
+                    visibility: visible;
+                }
+
+                background-color: transparent !important;
+
+            }
+        }
+
+        #headerDiv {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(1, 1, 1, 0.25);
+            overflow-x: hidden;
+            padding: 0 4vw 0 2.5%;
+            // padding: 0 2.5% 0 2.5%;
+            width: 100%;
+            height: 7.5ch;
+            background-color: #2980B9;
+
+            div p{
+                color: #fff;
+            }
+
+            :hover {
+                #menuIconDiv {
+                    visibility: visible;
+                }
+            }
+        }
+
+        .progressTable {
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(165, 165, 165, 0.103);
+        }
+
+        #nameItemContainer {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 20ch;
+            height: 7.5ch;
+        }
+
+        #roleItemContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20ch;
+            height: 7.5ch;
+        }
+
+        #emailItemContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30ch;
+            height: 7.5ch;
+        }
+
+        #menuIconDiv {
+            visibility: hidden;
+        }
+
+        #paginationDiv {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            overflow: hidden;
+            width: 100%;
+            height: 6ch;
+            padding: 0 4vw 0 2.5%;
+            border-radius: 0 0 5px 5px;
+            background-color: #fff;
+            border-top: 1px solid rgba(1, 1, 1, 0.25);
+        }
+    }
+}
+
+// lg
+@media (min-width: 900px) and (max-width: 1200px) {
+    .mainUsersTableContainer {
+        #searchAndFilter {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: calc( 100% - 70px );
+            height: 22.5vh;
+            margin-left: 70px;
+
+            #closeIcon {
+                position: absolute;
+                top: 1vh;
+                left: 30vw;
+            }
+
+            #FormControl {
+                margin: 10px;
+                width: 25ch;
+                background-color: #fff;
+
+                .MuiInputBase-input {
+                    height: 0.5vh;
+                }
+            }
+        }
+
+        #tableContainer {
+            width: calc( 100% - 70px );
+            height: 77.5vh;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            margin-left: 70px;
+            padding: 0;
+            border: 1px solid rgba(1, 1, 1, 0.25);
+        }
+
+        #containerRows {
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+            padding: 0 2.5% 0 2.5%;
+            overflow-y: scroll;
+            overflow-x: hidden;
+
+            :hover {
+                background-color: rgba(127, 41, 185, 0.5) !important;
+                cursor: pointer;
+                transition: all 0.2s ease;
+            }
+        }
+
+        #rowsDiv {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 2px;
+            padding: 0 2.5% 0 2.5%;
+            width: 100%;
+            height: 7.5ch;
+            background-color: #fff;
+
+            :hover {
+                #menuIconDiv {
+                    visibility: visible;
+                }
+
+                background-color: transparent !important;
+
+            }
+        }
+
+        #headerDiv {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(1, 1, 1, 0.25);
+            overflow-x: hidden;
+            padding: 0 4vw 0 2.5%;
+            // padding: 0 2.5% 0 2.5%;
+            width: 100%;
+            height: 7.5ch;
+            background-color: #2980B9;
+
+            div p{
+                color: #fff;
+            }
+
+            :hover {
+                #menuIconDiv {
+                    visibility: visible;
+                }
+            }
+        }
+
+        .progressTable {
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(165, 165, 165, 0.103);
+        }
+
+        #nameItemContainer {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 20ch;
+            height: 7.5ch;
+            padding: 0 2.5% 0 2.5%;
+        }
+
+        #roleItemContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20ch;
+            height: 7.5ch;
+        }
+
+        #emailItemContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30ch;
+            height: 7.5ch;
+        }
+
+        #menuIconDiv {
+            visibility: hidden;
+        }
+
+        #paginationDiv {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            overflow: hidden;
+            width: 100%;
+            height: 6ch;
+            padding: 0 4vw 0 2.5%;
+            border-radius: 0 0 5px 5px;
+            background-color: #fff;
+            border-top: 1px solid rgba(1, 1, 1, 0.25);
+        }
+    }
+}
+
+// md
+@media (min-width: 600px) and (max-width: 900px) {
+    .mainUsersTableContainer {
+        #searchAndFilter {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: calc( 100% - 70px );
+            height: 22.5vh;
+            margin-left: 70px;
+
+            #closeIcon {
+                position: absolute;
+                top: 1vh;
+                left: 30vw;
+            }
+
+            #FormControl {
+                margin: 10px;
+                width: 25ch;
+                background-color: #fff;
+
+                .MuiInputBase-input {
+                    height: 0.5vh;
+                }
+            }
+        }
+
+        #tableContainer {
+            width: calc( 100% - 70px );
+            height: 77.5vh;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            margin-left: 70px;
+            padding: 0;
+            border: 1px solid rgba(1, 1, 1, 0.25);
+        }
+
+        #containerRows {
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+            padding: 0 2.5% 0 2.5%;
+            overflow-y: scroll;
+            overflow-x: hidden;
+
+            :hover {
+                background-color: rgba(127, 41, 185, 0.5) !important;
+                cursor: pointer;
+                transition: all 0.2s ease;
+            }
+        }
+
+        #rowsDiv {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 2px;
+            padding: 0 2.5% 0 2.5%;
+            width: 100%;
+            height: 7.5ch;
+            background-color: #fff;
+
+            :hover {
+                #menuIconDiv {
+                    visibility: visible;
+                }
+
+                background-color: transparent !important;
+
+            }
+        }
+
+        #headerDiv {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(1, 1, 1, 0.25);
+            overflow-x: hidden;
+            padding: 0 4vw 0 2.5%;
+            width: 100%;
+            height: 7.5ch;
+            background-color: #2980B9;
+
+            div p{
+                color: #fff;
+            }
+
+            :hover {
+                #menuIconDiv {
+                    visibility: visible;
+                }
+            }
+        }
+
+        .progressTable {
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(165, 165, 165, 0.103);
+        }
+
+        #nameItemContainer {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 15ch;
+            height: 7.5ch;
+            padding: 0 2.5% 0 2.5%;
+        }
+
+        #roleItemContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 15ch;
+            height: 7.5ch;
+        }
+
+        #emailItemContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 25ch;
+            height: 7.5ch;
+            padding: 0 2.5% 0 2.5%;
+        }
+
+        #menuIconDiv {
+            visibility: hidden;
+        }
+
+        #paginationDiv {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            overflow: hidden;
+            width: 100%;
+            height: 6ch;
+            padding: 0 4vw 0 2.5%;
+            border-radius: 0 0 5px 5px;
+            background-color: #fff;
+            border-top: 1px solid rgba(1, 1, 1, 0.25);
+        }
+    }
+}
+
+// sm
+@media (max-width: 600px) {
+    .mainUsersTableContainer {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: space-between;
+        margin-bottom: 65px;
+
+
+        #searchAndFilter {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap-reverse;
+            align-items: center;
+            width: 100%;
+            height: 25vh;
+            min-height: 150px;
+
+            // #closeIcon {
+            //     position: relative;
+            //     right: 2.5vw;
+            // }
+
+            // .search {
+            //     display: block;
+            //     margin: auto;
+            // }
+
+            .ContainerFormsControl {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                width: 100vw;
+            }
+
+            #FormControl {
+                margin: 10px;
+                width: 30vw;
+                background-color: #fff;
+
+                .MuiInputBase-input {
+                    height: 0.5vh;
+                }
+            }
+        }
+
+        #tableContainer {
+            width: 100%;
+            height: auto;
+            min-height: calc((7.5vh * 8) + (2px * 8));
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            padding: 0;
+            border: 1px solid rgba(1, 1, 1, 0.25);
+        }
+
+        #containerRows {
+            width: 100%;
+            height: auto;
+            min-height: calc((7.5vh * 8) + (2px * 8));
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
+            margin: auto;
+            padding: 0 2.5% 0 2.5%;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            
+
+            :hover {
+                background-color: rgba(127, 41, 185, 0.5) !important;
+                cursor: pointer;
+                transition: all 0.2s ease;
+            }
+        }
+
+        #rowsDiv {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 2px;
+            padding: 0 2.5% 0 2.5%;
+            width: 100%;
+            height: 7.5vh;
+            min-height: 65px;
+            background-color: #fff;
+
+            :hover {
+                #menuIconDiv {
+                    visibility: visible;
+                }
+
+                background-color: transparent !important;
+
+            }
+        }
+
+        #headerDiv {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border-bottom: 1px solid rgba(1, 1, 1, 0.25);
+            overflow-x: hidden;
+            width: 100%;
+            height: 7.5vh;
+            min-height: 65px;
+            background-color: #2980B9;
+
+            div p{
+                color: #fff;
+            }
+
+            :hover {
+                #menuIconDiv {
+                    visibility: visible;
+                }
+            }
+        }
+
+        .progressTable {
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(165, 165, 165, 0.103);
+        }
+
+        #nameItemContainer {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-left: 2.5%;
+            width: 20ch;
+            height: 7.5ch;
+        }
+
+        #roleItemContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20ch;
+            height: 7.5ch;
+        }
+
+        #emailItemContainer {
+            position: absolute;
+            visibility: hidden;
+        }
+
+        #paginationDiv {
+            display: flex;
+            align-items: center !important;
+            justify-content: flex-end;
+            overflow: hidden;
+            width: 100%;
+            height: auto;
+            border-radius: 0 0 5px 5px;
+            background-color: #fff;
+            border-top: 1px solid rgba(1, 1, 1, 0.25);
+        }
+    }
+}

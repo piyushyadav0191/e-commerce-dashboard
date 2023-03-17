@@ -1,0 +1,326 @@
+// xl
+@media (min-width: 1200px) {
+    .mainCaregoriesModalContainer {
+        background-color: #fff;
+        height: 70vh;
+        width: 60vh;
+        margin: auto;
+        margin-top: 15%;
+
+        .titleContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 7.5vh;
+        }
+
+        .title {
+            font-size: 25px;
+            margin-top: 5%;
+            margin-bottom: 5%; 
+            margin-left: 4%;
+            margin-right: 4%;
+            color: #575858;
+            // margin-bottom: 2.5%;
+        }
+
+        // h1 {
+        //     align-items: center;
+        // }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: 40vh;
+            margin-top: 5%;
+            overflow-y: scroll;
+        }
+
+        .editionItemsContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(90, 19, 221, 0.15);
+            width: 100%;
+            height: 7.5vh;
+            box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+        }
+
+        .MuiMenuItem-root {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            cursor: default;
+            text-align: center;
+        }
+
+        #DeleteIcon {
+            font-size: 20px;
+        }
+
+        #EditIcon {
+            font-size: 20px;
+        }
+
+        #AddIcon {
+            font-size: 20px;
+        }
+
+        #submitButton {
+            width: 20%;
+            margin: auto;
+            margin-left: 40%;
+            margin-bottom: 2.5%;
+            margin-top: 7.5%;
+        }
+    }
+}
+
+// lg
+@media (min-width: 900px) and (max-width: 1200px) {
+    .mainCaregoriesModalContainer {
+        background-color: #fff;
+        height: 70vh;
+        width: 60vh;
+        margin: auto;
+        margin-top: 15%;
+
+        .titleContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 7.5vh;
+        }
+
+        .title {
+            font-size: 25px;
+            margin-top: 5%;
+            margin-bottom: 5%; 
+            margin-left: 4%;
+            margin-right: 4%;
+            color: #575858;
+            // margin-bottom: 2.5%;
+        }
+
+        // h1 {
+        //     align-items: center;
+        // }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: 40vh;
+            margin-top: 5%;
+            overflow-y: scroll;
+        }
+
+        .editionItemsContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(90, 19, 221, 0.15);
+            width: 100%;
+            height: 7.5vh;
+            box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+        }
+
+        .MuiMenuItem-root {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            cursor: default;
+            text-align: center;
+        }
+
+        #DeleteIcon {
+            font-size: 20px;
+        }
+
+        #EditIcon {
+            font-size: 20px;
+        }
+
+        #AddIcon {
+            font-size: 20px;
+        }
+
+        #submitButton {
+            width: 20%;
+            margin: auto;
+            margin-left: 40%;
+            margin-bottom: 2.5%;
+            margin-top: 7.5%;
+        }
+    }
+}
+
+// md
+@media (min-width: 600px) and (max-width: 900px) {
+    .mainCaregoriesModalContainer {
+        background-color: #fff;
+        height: 70vh;
+        width: 60vh;
+        margin: auto;
+        margin-top: 15%;
+
+        .titleContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 7.5vh;
+        }
+
+        .title {
+            font-size: 25px;
+            margin-top: 5%;
+            margin-bottom: 5%; 
+            margin-left: 4%;
+            margin-right: 4%;
+            color: #575858;
+            // margin-bottom: 2.5%;
+        }
+
+        // h1 {
+        //     align-items: center;
+        // }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: 40vh;
+            margin-top: 5%;
+            overflow-y: scroll;
+        }
+
+        .editionItemsContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(90, 19, 221, 0.15);
+            width: 100%;
+            height: 7.5vh;
+            box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+        }
+
+        .MuiMenuItem-root {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            cursor: default;
+            text-align: center;
+        }
+
+        #DeleteIcon {
+            font-size: 20px;
+        }
+
+        #EditIcon {
+            font-size: 20px;
+        }
+
+        #AddIcon {
+            font-size: 20px;
+        }
+
+        #submitButton {
+            width: 20%;
+            margin: auto;
+            margin-left: 40%;
+            margin-bottom: 2.5%;
+            margin-top: 7.5%;
+        }
+    }
+}
+
+// sm
+@media (max-width: 600px) {
+    .mainCaregoriesModalContainer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .titleContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 7.5vh;
+        }
+
+        .title {
+            font-size: 25px;
+            margin-top: 5%;
+            margin-bottom: 5%; 
+            margin-left: 4%;
+            margin-right: 4%;
+            color: #575858;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: 50vh;
+            margin-top: 5%;
+            overflow-y: scroll;
+        }
+
+        .editionItemsContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(90, 19, 221, 0.15);
+            width: 100%;
+            height: 7.5vh;
+            margin-top: 5vh;
+            box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+        }
+
+        .MuiMenuItem-root {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            cursor: default;
+            text-align: center;
+        }
+
+        #DeleteIcon {
+            font-size: 20px;
+        }
+
+        #EditIcon {
+            font-size: 20px;
+        }
+
+        #AddIcon {
+            font-size: 20px;
+        }
+
+        #submitButton {
+            width: 20%;
+            margin: auto;
+            margin-left: 40%;
+            // margin-top: -1vh;
+        }
+    }
+}

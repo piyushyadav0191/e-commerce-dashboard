@@ -1,0 +1,50 @@
+
+    .mainMenuMovilContainer {
+        
+        #buttonNavigationContainer {
+            position: fixed;
+            bottom: 0;
+            height: 7.5vh;
+            width: 100vw;
+            border-top: 1px solid #B2B6B5;
+            // z-index: (theme)=> theme.z-index.drawer + 1
+            z-index: 100;
+            min-height: 65px;
+        }
+
+        #containerSubMenu {
+            position: absolute;
+            right: 0;
+            bottom: 100%;
+            background-color: #fff;
+            width: 65px;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            border-top: 1px solid gray;
+            border-left: 1px solid gray;
+            border-radius: 2.5px 0 0 0;
+
+            z-index: 100;
+            // .MuiSvgIcon-root {}
+        }
+
+        #containerSubMenuBin {
+            position: absolute;
+            left: 0;
+            bottom: 100%;
+            background-color: #fff;
+            width: 65px;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            border-top: 1px solid gray;
+            border-right: 1px solid gray;
+            border-radius: 0 2.5px 0 0;
+
+            z-index: 100;
+            // .MuiSvgIcon-root {}
+        }
+    }
