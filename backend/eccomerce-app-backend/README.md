@@ -1,19 +1,5 @@
 # E-commerce backend
 
-## _Rest API made for an ecommerce_
-
-This project is part of what at the beginning was a much bigger one but I decided to divide its frontend into two parts so that everything is much more orderly, easy to maintain and make changes, the project itself is an e-commerce which consists of the following parts:
-
-- User application (e-commerce itself).
-  - React js.
-  - Redux toolkit (actions by using custom hooks).
-- Admin/moderator application (dashboard).
-  - React js.
-  - Redux toolkit (actions by using custom hooks).
-- Backend.
-  - Node js - Express.
-  - MongoDb - Mongoose.
-
 #### Roles, functionalities and permissions.
 
 There are two possible roles in the dashboard **Administrator** and **Moderator**.
