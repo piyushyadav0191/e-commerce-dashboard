@@ -45,8 +45,8 @@ To log in as a moderator, once we are on the login page, we must click on the mo
 First install the dependencies and then start the local server.
 
 ```sh
-$ git clone https://github.com/lucasgojeda/eccomerce-app-dashboard.git
-$ cd eccomerce-app-dashboard
+$ clone the repo
+$ cd repo
 $ npm i
 $ npm run dev
 ```
